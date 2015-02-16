@@ -1,0 +1,17 @@
+Title: Получить один лист LOG
+Comments: 
+Productions: 
+2, {1} --> SDFLOG
+S, SF_TYPE ="SDF"
+$ 
+1, {1} --> Выбор объекта (анализ с начала)
+S, SF_TYPE ="SDF"
+$ 
+5, {1} --> Выбор объекта (анализ продолжить)
+L, ROOT 
+$ 
+2, {1} | {2} --> UST_NEW
+S, SF_TYPE ="CONNECT_2"
+S, SF_TYPE ="CONNECT_N"
+$ 
+. 

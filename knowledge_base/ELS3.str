@@ -1,0 +1,14 @@
+Title: Получить один лист SDF (без)
+Comments: Получить SDF без ликвидации внутренних переменных
+Productions: 
+5, {1} --> Выбор объекта (анализ продолжить)
+L, ROOT 
+$ 
+2, {1} | {2} --> UST_NEW
+S, SF_TYPE ="CONNECT_2"
+S, SF_TYPE ="CONNECT_N"
+$ 
+2, {1} --> LOG_SDF_W
+S, SF_TYPE ="LOG"
+$ 
+. 

@@ -1,0 +1,26 @@
+Title: Получить один лист SDF
+Comments: 
+Productions: 
+2, {1} & {2} --> SDFLOG
+S, SF_TYPE ="SDF"
+L, ~ sin1 
+$ 
+1, {1} & {2} --> Выбор объекта (анализ с начала)
+S, SF_TYPE ="SDF"
+L, ~ sin1 
+$ 
+5, {1} --> Выбор объекта (анализ продолжить)
+L, ROOT 
+$ 
+3, {1} --> sin1
+L, sin1 = sin1 
+$ 
+2, {1} | {2} --> UST_NEW
+S, SF_TYPE ="CONNECT_2"
+S, SF_TYPE ="CONNECT_N"
+$ 
+2, {1} & {2} --> ELIMINATE
+L, sin1 
+S, SF_TYPE ="LOG"
+$ 
+. 

@@ -1,0 +1,102 @@
+ACTIVE  (numeric)
+   Сеть_Переключательная активность
+
+BDD  (logical)
+   Элемент_в_BDD
+
+BIBL  (logical)
+   Элемент_Библиотечность (схема_библиотечная=TRUE)
+
+CIRC_MACH  (logical)
+   Сеть_Тип_схемы-(COMB = FALSE)
+
+DELAY_BIBL  (numeric)
+   Элемент_Задержка
+
+ENLARG  (logical)
+   Элемент_Укрупнение_выполнено
+
+E_SQUARE  (numeric)
+   Элемент_Площадь
+
+FACT_AND  (numeric)
+   Элемент_Мах_длина_терма
+
+FACT_FORM  (logical)
+   Элемент_Факторизованная_форма
+
+FACT_MIN  (logical)
+   Элемент_Мелкие_уравнения
+
+FINDDIR  (string)
+   Знания_НаправлениеПоиска
+
+HIERAR  (numeric)
+   Сеть_Число уровней иерархии
+
+LEVELS  (numeric)
+   Элемент_LEVELS
+
+MIN  (logical)
+   Элемент_Минимизация_Выполнена
+
+NET  (numeric)
+   Сеть_Число подсхем (число_TYPE*вхождения)
+
+NETBIBL  (logical)
+   Сеть_тип_схемы_библиотечная
+
+NETNAME  (string)
+   Сеть_Имя элемента для топологии
+
+NUM1  (numeric)
+   Номер выполняемой стратегии в цепочке (глоб_компиляция) 
+
+POLUS  (numeric)
+   Сеть_Число_полюсов
+
+PORT_INP  (numeric)
+   Порты_Входы
+
+PORT_OUT  (numeric)
+   Порты_Выходы
+
+PORT_SP  (numeric)
+   Порты_Специальные
+
+ROOT  (logical)
+   Элемент_Корень
+
+RTL  (logical)
+   Элемент_в_RTL
+
+SF_TYPE  (string)
+   Элемент_Тип_описания
+
+SPEED  (logical)
+   Цель_быстродействие
+
+SQUARE  (logical)
+   Цель_площадь
+
+TAB  (numeric)
+   Элемент TAB
+
+TERM  (numeric)
+   Элемент
+
+TIME_OP  (numeric)
+   Сеть_Время_выполнения_проектной_операции
+
+TRANS  (numeric)
+   Сеть_Число_транзисторов
+
+TYPE  (numeric)
+   Сеть_Число различных TYPE
+
+sin1  (logical)
+   Первый управляющий атрибут для синтеза
+
+sin2  (logical)
+   Второй управляющий атрибут для синтеза
+
